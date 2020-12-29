@@ -1,0 +1,1 @@
+export let aa:number =10

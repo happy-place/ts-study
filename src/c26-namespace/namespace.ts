@@ -73,7 +73,7 @@ namespace Home2 {
     }
 }
 
-function test(){
+function test_namespade(){
     let doubleBed = new House.Badroom.Bad().doubleBed(2)
     console.log(doubleBed)
 }

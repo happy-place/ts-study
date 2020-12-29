@@ -1,5 +1,8 @@
 // npm i xmlhttprequest-ts
-import { XMLHttpRequest } from 'xmlhttprequest-ts'
+
+// @ts-ignore
+import {XMLHttpRequest} from 'xmlhttprequest-ts'
+
 
 interface Config {
     type: string;
