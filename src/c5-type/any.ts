@@ -1,4 +1,4 @@
-namespace any_test {
+(function() {
 // 类似于 Java Object 类型
     let a: any
 
@@ -10,4 +10,4 @@ namespace any_test {
 
     a = true
     console.log(a)
-}
+})()

@@ -1,4 +1,4 @@
-namespace timeout {
+(function() {
     /*
      * setTimeout中函数，准备执行时,i 已经变为了10，即后面声明的变量 var i 会取代前面的声明
      * 10
@@ -66,4 +66,4 @@ namespace timeout {
     }
 
     test3()
-}
+})()

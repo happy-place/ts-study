@@ -1,6 +1,9 @@
-namespace obj_test {
+(function() {
 // object 表示非原始类型，也就是除number，string，boolean，symbol，null或undefined之外的类型
-    declare function create(o: object): void;
+
+    function create(o: object): void{
+        console.log(o)
+    }
 
 // interface、null、array tuple 都属于为 object
     create({name: 'tim'})
@@ -21,4 +24,4 @@ namespace obj_test {
 // create(1)
 // create('a')
 // create(false)
-}
+})()

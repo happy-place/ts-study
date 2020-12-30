@@ -1,4 +1,4 @@
-namespace var_test {
+(function() {
 // 闭包：函数内部返回另一个函数
     function f() {
         let a = 10 // 环境
@@ -46,4 +46,4 @@ namespace var_test {
 // 同级别作业域可以反复声明
     var d = 1
     var d = 2
-}
+})()

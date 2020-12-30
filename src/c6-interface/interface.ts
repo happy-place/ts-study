@@ -1,4 +1,4 @@
-namespace inter_test {
+(function() {
 // 通过 interface 定义结构体，约束对象具有的属性和属性类型
     interface Post {
         title: string
@@ -34,7 +34,7 @@ namespace inter_test {
     }
 
     console.log(getTitle(post3))
-}
+})()
 
 
 

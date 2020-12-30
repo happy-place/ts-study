@@ -1,4 +1,4 @@
-namespace interface_test {
+(function() {
 // 通过接口约束必须包含属性
     interface Apple {
         name: string
@@ -58,5 +58,5 @@ namespace interface_test {
 
     let bike = new Bike()
     play(bike)
-}
+})()
 

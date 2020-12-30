@@ -1,4 +1,4 @@
-namespace tuple_test {
+(function() {
 // 元组，长度固定，类型确定，但不要求统一，元素可以修改，但需要保持类型一致
     let tup: [number, string, boolean] = [1, 'hi', true]
     console.log(typeof tup) // object
@@ -9,4 +9,4 @@ namespace tuple_test {
     console.log(tup)
 
 // tup[2] = 'hi' // 类型不一致，不能修改
-}
+})()

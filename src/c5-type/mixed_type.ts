@@ -1,4 +1,4 @@
-namespace mixed_type {
+(function() {
 // 组合类型
     let a: number | string
 
@@ -25,6 +25,6 @@ namespace mixed_type {
     c = 'off'
 // c = 'OFF' // 超过取值范围，编译不通过
 
-}
+})()
 
 

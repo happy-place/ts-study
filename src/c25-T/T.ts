@@ -1,4 +1,4 @@
-namespace T {
+(function() {
 // 泛型 函数
     function add<T>(a: T, b: T): T {
         return a
@@ -19,4 +19,4 @@ namespace T {
 
     let player = new Player()
     player.show('hello ts')
-}
+})()

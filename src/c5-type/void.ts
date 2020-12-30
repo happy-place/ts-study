@@ -1,4 +1,4 @@
-namespace void_test {
+(function() {
 // 明确声明没有返回值
     function greet(name: string): void {
         console.log('hi, ' + name)
@@ -13,4 +13,4 @@ namespace void_test {
     console.log(concat('big', 'bang'))
     console.log(concat(1, 2))
 
-}
+})()

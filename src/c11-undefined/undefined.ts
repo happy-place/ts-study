@@ -1,4 +1,4 @@
-namespace undefined_test {
+(function() {
     let num: number
     console.log(num) // undefined
 
@@ -21,4 +21,4 @@ namespace undefined_test {
     let b: boolean = un
 
 // 使用 --strictNullChecks 可以强约束null 和 undefined 作为其他类型传入
-}
+})()

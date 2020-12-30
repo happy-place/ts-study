@@ -1,4 +1,4 @@
-namespace type_test1 {
+(function() {
     let username: string = 'Jack'
 
     let age: number = 10
@@ -9,4 +9,4 @@ namespace type_test1 {
 I'll be ${age + 1} years old next month. 
 Are you ok ? ${is_ok}`
     console.log(sentence)
-}
+})()

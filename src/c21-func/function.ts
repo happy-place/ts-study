@@ -1,4 +1,4 @@
-namespace func {
+(function() {
 // 明确声明返回值
     function run1(): string {
         return 'run'
@@ -65,7 +65,7 @@ namespace func {
         console.log(res)
     }
 
-}
+})()
 
 
 

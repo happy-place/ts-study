@@ -1,4 +1,4 @@
-namespace arr_test {
+(function() {
 // 使用明确类型数值，可以现在元素类型 (类型不变，长度不变，元素可变)
     let arr: number[] = [1, 2, 3]
     arr[0] = 4
@@ -11,6 +11,6 @@ namespace arr_test {
     let arr3: Array<any> = [1, 'hi', true]
 // let arr3 = [1,'hi',true]
     console.log(arr3, typeof (arr3))
-}
+})()
 
 

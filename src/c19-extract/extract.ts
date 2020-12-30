@@ -6,7 +6,7 @@
 // let args:[number,string] = [21,'tom']
 // let [age,name] = args  // name 是 在lib 中
 // console.log(age,name)
-namespace extract_test {
+(function() {
 // 析构
     function test() {
         let args = [21, 'tom']
@@ -60,4 +60,4 @@ namespace extract_test {
 
 
     test()
-}
+})()

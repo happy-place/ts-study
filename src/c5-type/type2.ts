@@ -1,4 +1,4 @@
-namespace type2 {
+(function() {
 // 1.number 接收整数、浮点
     let a1 = 10
     a1 = 10.1
@@ -161,4 +161,4 @@ namespace type2 {
 
     type MyMixType = number | string
     let l: MyMixType = 1
-}
+})()

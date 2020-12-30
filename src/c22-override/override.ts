@@ -1,4 +1,4 @@
-namespace override_test {
+(function() {
 // 方法重载需要写各自的方法签名，然后共用一个方法实现
     function getInfo(name: string): string
     function getInfo(age: number): number
@@ -37,4 +37,4 @@ namespace override_test {
 
     console.log(getInfo2('张三')); // 我叫：张三
     console.log(getInfo2('张三', 20)); // 我年龄：20
-}
+})()

@@ -1,4 +1,4 @@
-namespace let_test {
+(function() {
 // let 是块作用域
     function test(flag: boolean) {
         let a = 1
@@ -35,4 +35,4 @@ namespace let_test {
         }
         return sum;
     }
-}
+})()

@@ -1,4 +1,4 @@
-namespace catch_test {
+(function() {
 // catch 中声明的 e 是let,只能在catch 块使用，finally中感知到的是 undefined
     function test() {
         let e: Error
@@ -12,4 +12,4 @@ namespace catch_test {
     }
 
     test()
-}
+})()

@@ -1,4 +1,4 @@
-namespace class_test {
+(function() {
     class Car {
         // 属性：可使用private public protected 等修饰，默认public
         // private 只能在本类中访问
@@ -213,7 +213,7 @@ namespace class_test {
     show(dog) // 父类引用指向子类实例 多态
     show(sheep)
 
-}
+})()
 
 
 
